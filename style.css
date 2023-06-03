@@ -1,0 +1,29 @@
+h2 {
+  font-size: 30px;
+  font-family: "Instrument Serif", serif;
+  color: aquamarine;
+}
+.imagen-de-gatos {
+  border-radius: 50%;
+  width: 200px;
+  border-width: 8px;
+  border-color: rgb(90, 118, 230);
+  border-style: solid dashed dotted double;
+  background-color: rgba(244, 127, 255, 0.562);
+  padding: 15px 20px 5px 10px;
+}
+div {
+  background-color: #ddd;
+}
+#App-de-gatos {
+  margin: 15px;
+  color: #0ac
+  font-style: oblique;
+  font-family: cursive;
+  margin: 15px;
+}
+
+body {
+  background-color: blanchedalmond;
+  color: deeppink;
+}
