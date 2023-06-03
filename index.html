@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>AppDeGatos</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@1&family=Roboto:ital,wght@1,500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h2>AppDeGatos</h2>
+    <main>
+      <h3 id="App-de-gatos">Imagenes de Gatos</h3>
+      <!-- TODO: Agregar enlace a images de datos -->
+      <p>
+        Haz click aqui para ver mas
+        <a
+          href="https://www.freecodecamp.org/espanol/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          imagenes de gatos.</a
+        >
+
+        <a
+          href="https://www.freecodecamp.org/espanol"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><img
+            src="https://bit.ly/fcc-relaxing-cat"
+            class="imagen-de-gatos"
+            alt="Un lindo Gato naranja recostado sobre la espalda"
+        /></a>
+      </p>
+      <hr />
+      <h3>listas de Gatos</h3>
+      <div>
+        <p>Cosas que los gatos <em> aman </em></p>
+        <ul>
+          <li>Menta Gatuna</li>
+          <li>Apuntadores Laser</li>
+          <li><s> Lasaña </s></li>
+        </ul>
+        <img src="imagenes/lasana.jpg" alt="Lasaña" class="lasana" />
+        <p>Cosas que los gatos <strong> odian:</strong></p>
+        <ol>
+          <li>Tratamientos Antipulgas</li>
+          <li>Truenos</li>
+          <li>Otros Gatos</li>
+        </ol>
+      </div>
+      <img src="imagenes/Gatos.jpg" class="gatos" alt="Gatos" width="250px" />
+      <form action="#">
+        <label for="interior"
+          ><input
+            id="interior"
+            type="radio"
+            value="interior"
+            name="interior-exterior"
+            checked
+          />Interior</label
+        ><br />
+        <label for="exterior"
+          ><input
+            id="exterior"
+            type="radio"
+            value="exterior"
+            name="interior-exterior"
+          />Exterior</label
+        >
+        <br />
+
+        <label for="carinoso"
+          ><input
+            id="carinoso"
+            name="personalidad"
+            type="checkbox"
+            value="carinoso"
+            checked
+          />Cariñoso
+        </label>
+        <br />
+        <label for="perezoso"
+          ><input
+            id="perezoso"
+            name="personalidad"
+            type="checkbox"
+            value="perezoso"
+          />Perezoso
+        </label>
+        <br />
+        <label for="energico"
+          ><input
+            id="energico"
+            name="personalidad"
+            type="checkbox"
+            value="energico"
+          />Energico
+        </label>
+        <br />
+
+        <input type="text" placeholder="URL de la foto de tu Gato" required />
+        <button type="submit">Enviar</button>
+      </form>
+    </main>
+    <footer>
+      <p>
+        <small
+          >Sin Derechos de Autor -
+          <a href="https://www.youtube.com/watch?v=j92ZFKYcYMA" target="_blank">
+            freecodecamp
+          </a>
+        </small>
+      </p>
+    </footer>
+  </body>
+</html>
